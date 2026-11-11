@@ -1,0 +1,22 @@
+# Secretos: NUNCA subir
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / sistema
+.vscode/
+.DS_Store
+
+# Datos locales y capturas
+chromadb_data/
+capturas/
+*.log
+
+# Material con derechos del curso (no redistribuir). Pon aquí tus propios documentos.
+RAG/Base_de_Conocimiento_Automatizacion/*.pdf

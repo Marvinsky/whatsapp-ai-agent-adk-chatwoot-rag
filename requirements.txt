@@ -1,0 +1,30 @@
+# Servidor Web
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-dotenv>=1.0.0
+
+# Google AI (Gemini) y ADK
+google-generativeai>=0.3.2
+google-adk>=0.1.0
+
+# Base de datos vectorial
+chromadb>=0.4.22
+
+# RAG con LlamaParse + LlamaCloud Index (parseo, chunks y embeddings en la nube)
+llama-cloud>=2.18
+
+# Base de datos para historial (Supabase)
+supabase>=2.0.0
+
+# Procesamiento de documentos
+PyPDF2>=3.0.1
+python-docx>=1.1.0
+
+# HTTP requests para Chatwoot
+requests>=2.31.0
+
+# Utilidades
+pydantic>=2.5.3
+
+# llama-index
+llama-index
